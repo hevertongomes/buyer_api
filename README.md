@@ -17,7 +17,7 @@ No seu terminal linux, em um diretório de sua preferência para projetos, digit
 git clone https://github.com/hevertongomes/buyer_api.git
 
 ```
-No diretório do projeto no mesmo nível de pasta de **docker-compose.yml** você precisa criar uma arquivo na raiz do projeto um arquivo chamdo .env pode ser feito usando seu editor. Ele se deve passar o tipo de ambiente onde vai rodar o projeto que pode ser três: development, production,testing. Dentro desse arquivo colocar seguinte código, podendo escolher uma das três opções:
+No diretório do projeto no mesmo nível de pasta de **docker-compose.yml** você precisa criar uma arquivo na raiz do projeto um arquivo chamado .env pode ser feito usando seu editor. Nele se deve passar o tipo de ambiente onde vai rodar o projeto que pode ser três: development, production,testing. Dentro desse arquivo colocar seguinte código, podendo escolher uma das três opções:
 
 ```
 ENVIRONMENT_PROJECT=development
