@@ -2,7 +2,7 @@
 
 ## Iniciando
 
-O buyer api foi criado usando a lib flas-restful
+O buyer api foi criado usando a lib flask-restful
 
 ### Pré-requisitos
 
