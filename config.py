@@ -6,11 +6,16 @@ class Config:
 class Development(Config):
     Debug=True
 
+class Production(Config):
+    Debug=False
+
 class Testing(Config):
-    pass
+    Debug=True
 
 config = {
-    "development": Development
+    "development": Development,
+    "production": Production,
+    "testing": Testing
 }
 
 
